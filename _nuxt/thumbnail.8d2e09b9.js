@@ -1,0 +1,1 @@
+import{q as a,s}from"./entry.c8058795.js";const i=a("thumbnail",{state:()=>({data:[]}),actions:{fetchData:async function(){if(!this.data.length){const t=await s.get("thumbnail");if(!t.data)throw new Error("Failed to fetch data");this.data=t.data,this.error=null}}}});export{i as u};

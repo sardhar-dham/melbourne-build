@@ -1,0 +1,1 @@
+import{q as t,s}from"./entry.c8058795.js";const r=t("prasadic_places",{state:()=>({data:[]}),actions:{fetchData:async function(){if(!this.data.length){const a=await s.get("prasadic_places");if(!a.data)throw new Error("Failed to fetch data");this.data=a.data,this.error=null}}}});export{r as u};

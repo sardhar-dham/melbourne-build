@@ -1,0 +1,1 @@
+import{a as e}from"./js.cookie.749e737e.js";function a(){let t=e.get("auth-token");if(t!=null&&t!=null){let n=JSON.parse(e.get("auth-token"));return n.token!=null&&n.token!=null?!0:(e.remove("auth-token"),!1)}else return e.remove("auth-token"),!1}export{a as c};

@@ -1,0 +1,1 @@
+import{q as a,s as e}from"./entry.222f6bfa.js";const s=a("event_photo",{state:()=>({data:[]}),actions:{fetchData:async function(){if(!this.data.length){const t=await e.get("event_gallary");if(!t.data)throw new Error("Failed to fetch data");this.data=t.data,this.error=null}}}});export{s as u};

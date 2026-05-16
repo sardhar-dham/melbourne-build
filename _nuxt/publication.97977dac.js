@@ -1,0 +1,1 @@
+import{q as a,s as i}from"./entry.0fbf695f.js";const e=a("publication",{state:()=>({data:[]}),actions:{fetchData:async function(){if(!this.data.length){const t=await i.get("publication");if(!t.data)throw new Error("Failed to fetch data");this.data=t.data,this.error=null}}}});export{e as u};
